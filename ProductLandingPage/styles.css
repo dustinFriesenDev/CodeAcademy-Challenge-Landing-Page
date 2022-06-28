@@ -65,14 +65,27 @@ a:hover {
 
 .news-container {
   clear: left;
-  padding: 5px 14px;
   text-align: justify;
   margin: 70px 10px 0;
-  padding: 20px 20px 30px;
   border: 1px solid rgb(0,0,0, .2);
   border-radius: 3px;
-  background-color: rgba(204, 111, 60, 0.3);
   box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+.news-container img {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(0,0,0,)
+}
+
+.news-container h1{
+  text-align: center;
+  margin: 6px 0 3px;
+}
+
+.news-container p{
+  word-spacing: 3px;
+  padding: 20px 40px 30px;
 }
 
 .buy-container {
